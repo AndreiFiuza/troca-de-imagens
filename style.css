@@ -1,0 +1,22 @@
+:root {
+    --imagem-fundo: url('./1.jpg'); 
+}
+
+body {
+    background-image: var(--imagem-fundo);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100vw; 
+    transition: background-image 0.5s ease-in-out; 
+}
+
+button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
